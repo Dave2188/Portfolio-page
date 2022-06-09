@@ -1,0 +1,78 @@
+/* styles */
+:root {
+    --color-white: #eaebed;
+    --color-teal: #98dad9;
+    --color-blue: #5b8291;
+    --color-dark: #2e424d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* 62.5% of 16px=10px or 1 rem */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+   font-size: 62.5%;
+}
+
+
+
+
+
+
+/* nav */
+.nav__bar {
+    background-color: var(--color-blue);
+    width: 100%;
+    font-size: 4rem;
+    display: inline-flex;
+    justify-content: space-between;
+    color: var(--color-white);
+}
+
+.nav__logo {
+    padding: 1.2rem;
+    background-color: #2e424d;
+
+}
+
+.nav__logo span:last-of-type {
+    font-size: 3rem;
+}
+
+.nav__button {
+    padding: 1rem;
+    font-size: 3rem;
+    align-self: center;
+}
+
+/* nav collapsible */
+.nav__bar__expanded {
+    display: none;
+}
+
+.menu__expanded {
+    font-size: 3rem;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-blue);
+    width: 60%;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__expanded a {
+    margin: 3rem 0 4rem 1.5rem;
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+
+.menu__expanded svg {
+    margin-right: 1.5rem;
+}
+
