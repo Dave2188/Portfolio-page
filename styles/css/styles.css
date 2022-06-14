@@ -48,16 +48,16 @@ a {
 /* nav */
 .nav__bar {
     background-color: var(--color-blue);
-    width: 100%;
-    font-size: 4rem;
-    display: inline-flex;
-    justify-content: space-between;
     color: var(--color-white);
+    display: inline-flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .nav__logo {
-    padding: 1.2rem 2rem;
     background-color: rgb(65, 65, 65);
+    padding: 1.2rem 2rem;
 
 }
 
@@ -66,24 +66,24 @@ a {
 }
 
 .nav__button {
-    padding: 1rem;
-    font-size: 3rem;
     align-self: center;
+    font-size: 3rem;
+    padding: 1rem;
 }
 
 .nav__button:hover {
-    transform: scale(1.2);
-    transition: all .25s ease-in-out;
     color: white;
     cursor: pointer;
+    transform: scale(1.2);
+    transition: all .25s ease-in-out;
 }
 
 /* nav collapsible */
 .nav__bar__expanded {
+    display: none;
     position: absolute;
     right: 0;
     z-index: 1;
-    display: none;
     
 }
 
@@ -102,10 +102,10 @@ a {
 }
 
 .menu__expanded li {
-    margin: 3rem 0 3rem 1.5rem;
-    text-decoration: none;
     color: var(--color-white);
     list-style: none;
+    margin: 3rem 0 3rem 1.5rem;
+    text-decoration: none;
 }
 
 .menu__expanded svg {
@@ -113,14 +113,14 @@ a {
 }
 
 .menu__expanded a {
+    border-radius: 10px;
     color:var(--color-white);
     padding: 1rem 3rem;
-    border-radius: 10px;
 }
 
 .menu__expanded li a:hover {
-    color: white;
     background-color: #6f9aab;
+    color: white;
 
 }
 
@@ -137,8 +137,8 @@ a {
 
     .menu__expanded {
         font-size: 2.5rem;
-        width: 240px;
         height: 470px;
+        width: 240px;
     }
 }
 
@@ -149,13 +149,15 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 360px;
+    margin-bottom: 500px; 
+
 }
 
 .hero {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     position: relative;
     top: 11rem;
 }
@@ -188,18 +190,16 @@ a {
 }
 
 .btn {
-    position: relative;
-    bottom: 4px;
-    margin-right: 3rem;
-    font-size: 1.5rem;
-    padding: 10px 30px;
+    /* color: var(--color-teal); */
+    background-color: var(--color-blue);
     border-radius: 30px;
     border: none;
-    letter-spacing: 1.2px;
-    font-weight: normal;
-    background-color: var(--color-blue);
-    /* color: var(--color-teal); */
     color: #eaebed;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    margin-right: 3rem;
+    padding: 10px 30px;
 }
 
 .btn:hover {
@@ -207,19 +207,22 @@ a {
 }
 
 .btn__container {
-  margin-top: 3rem;
+  align-items: center;
+  display: flex;
+  margin: auto;
   position: relative;
   top: 20px;
+  width: fit-content;
 }
 
 .btn__soc {
-    margin: 1rem;
-    font-size: 2.6rem;
     /* background-color: rgb(87, 87, 87); */
     background-color: var(--color-blue);
-    padding: .8px 4px;
     border-radius: 5px;
     color: var(--color-teal);
+    font-size: 2.6rem;
+    margin: 1rem;
+    padding: .8px 4px;
 
  
 }
@@ -234,27 +237,67 @@ a {
     box-shadow: 0px 2px 5px rgb(87, 87, 87);
 }
 
+@media screen and (min-width:790px) {
+    .header__container {
+        margin-bottom: 250px;
+    }
+}
+
 @media screen and (min-width: 1100px) {
     .hero__statement {
         text-align: left;
     }
 }
 
-/* play */
+/* about me */
 
-/* .cu {
-    margin: 10rem;
-    width: 500px;
-    padding: 5rem;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: inset 0px 0px 60px var(--color-blue);
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.cut {
-    margin: 10rem;
-    width: 800px;
+
+.about__container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px var(--color-blue);
+    font-size: 1.5rem;
+    margin-top: 2rem;
     padding: 5rem;
-    background-image: url(../images/SL_042620_30310_15.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+    width: 90vw;
+}
+
+.line__title {
+    border-bottom: 1px solid var(--color-dark);
+    font-weight: 300;
+    margin: 10px 0 20px;
+    text-align: center;
+    width: 90%;
+    
+
+}
+
+.line__title span {
+    background-color: #eaebed;
+    padding: 0 1rem;
+    position: relative;
+    top: 18px;
+}
+
+/* skills */
+
+.skill__icon {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 2px;
+    margin: .6rem;
+}
+
+.skill__icon__container {
+    background-color: white;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px var(--color-dark);
+
+}
