@@ -38,7 +38,7 @@
         </menu>
       </div>
     </nav>
-    <header>
+    <header id="head">
       <div class="header__container">
         <div class="hero">
           <div class="hero__image">
@@ -56,14 +56,25 @@
               experiences.
             </p>
             <div class="btn__container">
-              <a href="#"><button class="btn">Resumé</button></a>
-              <a href="#" class="btn__soc"
+              <a href="#" target="_blank"
+                ><button class="btn">Resumé</button></a
+              >
+              <a
+                href="https://www.linkedin.com/in/david-fox-3b8449222/"
+                class="btn__soc"
+                target="_blank"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
-              <a href="#" class="btn__soc"
+              <a
+                href="https://github.com/Dave2188"
+                class="btn__soc"
+                target="_blank"
                 ><i class="fa-brands fa-github-square"></i
               ></a>
-              <a href="#" class="btn__soc"
+              <a
+                href="https://twitter.com/dave2188"
+                class="btn__soc"
+                target="_blank"
                 ><i class="fa-brands fa-twitter-square"></i
               ></a>
             </div>
@@ -172,7 +183,12 @@
             <div class="project__info">
               <h3>Moshify Web Site</h3>
               <p>A responsive website built with HTML, CSS, and, JAVASCRIPT.</p>
-              <a href="#">Live Website</a> <a href="#">Repository</a>
+              <a href="https://dave2188.github.io/moshify/" target="_blank"
+                >Live Website</a
+              >
+              <a href="https://github.com/Dave2188/moshify" target="_blank"
+                >Repository</a
+              >
             </div>
           </div>
           <div class="project__card container">
@@ -186,7 +202,12 @@
             <div class="project__info">
               <h3>Battleship</h3>
               <p>A version of Battleship built with JAVASCRIPT.</p>
-              <a href="#">Live Website</a> <a href="#">Repository</a>
+              <a href="https://dave2188.github.io/mybattleship/" target="_blank"
+                >Live Website</a
+              >
+              <a href="https://github.com/Dave2188/mybattleship" target="_blank"
+                >Repository</a
+              >
             </div>
           </div>
           <div class="project__card container">
@@ -198,7 +219,12 @@
               <p>
                 A mock responsive local Marvel website built with HTML and CSS
               </p>
-              <a href="#">Live Website</a> <a href="#">Repository</a>
+              <a href="https://dave2188.github.io/club-website/" target="_blank"
+                >Live Website</a
+              >
+              <a href="https://github.com/Dave2188/club-website" target="_blank"
+                >Repository</a
+              >
             </div>
           </div>
           <div class="project__card container">
@@ -208,7 +234,16 @@
             <div class="project__info">
               <h3>Flexbox site</h3>
               <p>A responsive website built with HTML, CSS, and, JAVASCRIPT.</p>
-              <a href="#">Live Website</a> <a href="#">Repository</a>
+              <a
+                href="https://dave2188.github.io/flexbox-mock-business-site/"
+                target="_blank"
+                >Live Website</a
+              >
+              <a
+                href="https://github.com/Dave2188/flexbox-mock-business-site"
+                target="_blank"
+                >Repository</a
+              >
             </div>
           </div>
         </div>
@@ -216,7 +251,18 @@
       <section class="contact">
         <h2 class="line__title"><span>Contact Me</span></h2>
         <div class="contact__form container">
-          <form class="form" action="" method="get">
+          <form
+            class="form"
+            id="form1"
+            action="https://formsubmit.co/ae09460b42a781fe91fa75a067ed1b3b"
+            method="POST"
+          >
+            <!-- honeypot -->
+            <input type="text" name="_honey" id="" style="display: none" />
+
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false" />
+
             <input
               type="text"
               name="name"
@@ -224,6 +270,7 @@
               placeholder="Your Name"
               minlength="1"
               maxlength="20"
+              required
             />
             <input
               type="email"
@@ -232,6 +279,7 @@
               placeholder="Your Email"
               minlength="1"
               maxlength="30"
+              required
             />
             <input
               type="text"
@@ -240,6 +288,7 @@
               placeholder="Subject"
               minlength="1"
               maxlength="30"
+              required
             />
             <textarea
               name="message"
@@ -248,8 +297,14 @@
               rows="10"
               maxlength="300"
               placeholder="Message"
+              required
             ></textarea>
-            <input class="submit__btn" type="button" value="submit" />
+            <input
+              class="submit__btn"
+              type="submit"
+              value="submit"
+              form="form1"
+            />
           </form>
         </div>
       </section>
