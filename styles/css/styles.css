@@ -468,4 +468,38 @@ a {
     font-size: 1.5rem;
  }
 
+ .back__link {
+    text-align: center;
+    margin-bottom: 1rem;
+ }
+
+.back {
+    font-size: 1.5rem;
+    color: var(--color-dark);
+    text-decoration: underline;
+
+}
+
+.back:hover {
+    text-shadow: 0 0 10px var(--color-teal);
+}
+
+/* under construction page */
+
+.underConstruction {
+ background-image: url(../images/vecteezy_abstract-banner-design-web-templates-horizontal-header-web_3586238.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.coming {
+  color: #eaebed;
+  font-size: 6rem;
+  letter-spacing: 4px;
+}
+
 

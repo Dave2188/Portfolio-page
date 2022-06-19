@@ -11,7 +11,7 @@
     <title>David fox- Front End Developer</title>
   </head>
   <body>
-    <nav class="nav__container">
+    <nav id="nav" class="nav__container">
       <div class="nav__bar">
         <div class="nav__logo"><span>D</span><span>f</span></div>
         <div id="ham__btn" class="nav__button">
@@ -21,19 +21,21 @@
       <div id="nav__menu" class="nav__bar__expanded">
         <menu class="menu__expanded">
           <li>
-            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#head"><i class="fa-solid fa-house"></i>Home</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-id-card"></i>About</a>
+            <a href="#about"><i class="fa-solid fa-id-card"></i>About</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-toolbox"></i>Skills</a>
+            <a href="#skills"><i class="fa-solid fa-toolbox"></i>Skills</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-code"></i>Projects</a>
+            <a href="#projects"><i class="fa-solid fa-code"></i>Projects</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-address-book"></i>Contact</a>
+            <a href="#contact"
+              ><i class="fa-solid fa-address-book"></i>Contact</a
+            >
           </li>
         </menu>
       </div>
@@ -56,7 +58,7 @@
               experiences.
             </p>
             <div class="btn__container">
-              <a href="#" target="_blank"
+              <a href="./playground.html" target="_blank"
                 ><button class="btn">Resumé</button></a
               >
               <a
@@ -83,7 +85,7 @@
       </div>
     </header>
     <main>
-      <section class="about">
+      <section id="about" class="about">
         <h2 class="line__title"><span>About me</span></h2>
         <div class="about container">
           I`ve known that working with computers was my calling from the moment
@@ -96,7 +98,7 @@
           morphed into a renewed passion for learning and creativity.
         </div>
       </section>
-      <section class="skills">
+      <section id="skills" class="skills">
         <h2 class="line__title"><span>Skills</span></h2>
         <div class="skills__container">
           <div class="skill__icon__container">
@@ -173,7 +175,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h2 class="line__title"><span>Projects</span></h2>
         <div class="project">
           <div class="project__card container">
@@ -248,7 +250,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section id="contact" class="contact">
         <h2 class="line__title"><span>Contact Me</span></h2>
         <div class="contact__form container">
           <form
@@ -308,6 +310,7 @@
           </form>
         </div>
       </section>
+      <div class="back__link"><a class="back" href="#nav">Back to top</a></div>
     </main>
     <footer>
       <span>&copy; David Fox 2022</span>
