@@ -165,7 +165,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 360px;
-    margin-bottom: 500px; 
+    margin-bottom: 400px; 
 
 }
 
@@ -257,7 +257,7 @@ a {
 
 @media screen and (min-width:790px) {
     .header__container {
-        margin-bottom: 250px;
+        margin-bottom: 200px;
     }
 }
 
