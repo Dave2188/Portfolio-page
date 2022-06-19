@@ -40,7 +40,15 @@ a {
     text-decoration: none;
 }
 
-
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px var(--color-blue);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 5rem;
+    width: 90vw;
+}
 
 
 
@@ -257,7 +265,7 @@ a {
     flex-direction: column;
 }
 
-.about__container{
+.about .container{
     background-color: white;
     border-radius: 10px;
     box-shadow: inset 0px 0px 20px var(--color-blue);
@@ -338,24 +346,48 @@ a {
 }
 
  /* projects */
+ .projects {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
  .project__card {
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
 
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+
+
+ }
+
+ .project__card:hover {
+    box-shadow: inset 0px 0px 50px var(--color-blue);
+    transition: all .75s linear;
  }
 
 
  .project__img__container {
-    height: 250px;
-    width: 375px;
-    overflow: hidden;
-    margin-right: 5rem;
     border-radius: 10px;
+    overflow: hidden;
+    margin:  0 5rem;
     flex-shrink: 0;
+    height: 200px;
+ 
+ }
+
+ .project__card img {
+    height: auto;
+    width: 90%;
  }
 
  .project__info {
-    margin-top: 2rem;
+    margin: 2rem 0;
     width: 300px;
  }
 
@@ -363,3 +395,71 @@ a {
     margin: 3rem 2rem;
     font-size: 1.5rem;
  }
+
+ /* @media screen and (min-width:750px) {
+    .project__img__container {
+        height: 300px;
+        width: 500px;
+    }
+ }
+
+ @media screen and (min-width: 1020px) {
+    .project__img__container {
+        height: auto;
+    }
+    
+ } */
+
+ /* contact section */
+
+.contact {
+    margin: 100px 0 50px 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-blue);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.form input {
+    margin: 5px 0;
+}
+
+.form textarea {
+    margin: 5px 0;
+
+}
+
+.submit__btn {
+    padding: 3px 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-teal);
+    align-self: center;
+
+}
+
+ /* footer */
+
+ footer {
+    height: 60px;
+    width: 100%;
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+ }
+
+
