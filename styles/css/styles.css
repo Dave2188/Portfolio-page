@@ -12,11 +12,15 @@
 
 /* 62.5% of 16px=10px or 1 rem */
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 62.5%;
     background-color: #eaebed;
     letter-spacing: .5px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -30,6 +34,10 @@ h2 {
 h3 {
     font-size: 2rem !important;
     font-weight: 300;
+}
+
+h4 {
+  font-size: 1.6rem;
 }
 
 p {
@@ -160,6 +168,8 @@ a {
     margin-bottom: 500px; 
 
 }
+
+
 
 .hero {
     align-items: center;
@@ -491,6 +501,7 @@ a {
  background-repeat: no-repeat;
  background-size: cover;
  height: 100vh;
+ width: 100vw;
  display: flex;
  justify-content: center;
  align-items: center;
