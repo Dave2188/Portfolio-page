@@ -2,7 +2,10 @@ let menuBtn = document.getElementById('ham__btn');
 let exMenu = document.getElementById('nav__menu');
 let closeMenu = document.getElementById('head');
 
+
 function hamShow() {
+  
+    
   if(exMenu.style.display === 'none') {
     exMenu.style.display = 'block'
   }else {
