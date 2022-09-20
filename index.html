@@ -1,342 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles/css/styles.css" />
-		<link rel="stylesheet" href="./styles/css/normalize.css" />
-		<link rel="stylesheet" href="./styles/css/all.min.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="./all.min.js"></script>
-		<title>David fox- Front End Developer</title>
-	</head>
-	<body>
-		<nav id="nav" class="nav__container">
-			<div class="nav__bar">
-				<div class="nav__logo"><span>D</span><span>f</span></div>
-				<div id="ham__btn" class="nav__button">
-					<i class="fa-solid fa-bars"></i>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./styles/css/styles.css" />
+	<link rel="stylesheet" href="./styles/css/normalize.css" />
+	<link rel="stylesheet" href="./styles/css/all.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet" />
+	<script src="./all.min.js"></script>
+	<title>David fox- Front End Developer</title>
+</head>
+
+<body>
+	<nav id="nav" class="nav__container">
+		<div class="nav__bar">
+			<div class="nav__logo"><span>D</span><span>f</span></div>
+			<div id="ham__btn" class="nav__button">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</div>
+		<div id="nav__menu" class="nav__bar__expanded" style="display: none">
+			<menu class="menu__expanded">
+				<li>
+					<a href="#head"><i class="fa-solid fa-house"></i>Home</a>
+				</li>
+				<li>
+					<a href="#about"><i class="fa-solid fa-id-card"></i>About</a>
+				</li>
+				<li>
+					<a href="#skills"><i class="fa-solid fa-toolbox"></i>Skills</a>
+				</li>
+				<li>
+					<a href="#projects"><i class="fa-solid fa-code"></i>Projects</a>
+				</li>
+				<li>
+					<a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+				</li>
+			</menu>
+		</div>
+	</nav>
+	<header id="head">
+		<div class="header__container">
+			<div class="hero">
+				<div class="hero__image">
+					<img src="./styles/images/03824AC1-26F6-4EF4-B91E-2B8DCB820643_4_5005_c.jpg" alt="" />
 				</div>
-			</div>
-			<div id="nav__menu" class="nav__bar__expanded" style="display: none">
-				<menu class="menu__expanded">
-					<li>
-						<a href="#head"><i class="fa-solid fa-house"></i>Home</a>
-					</li>
-					<li>
-						<a href="#about"><i class="fa-solid fa-id-card"></i>About</a>
-					</li>
-					<li>
-						<a href="#skills"><i class="fa-solid fa-toolbox"></i>Skills</a>
-					</li>
-					<li>
-						<a href="#projects"><i class="fa-solid fa-code"></i>Projects</a>
-					</li>
-					<li>
-						<a href="#contact"
-							><i class="fa-solid fa-address-book"></i>Contact</a
-						>
-					</li>
-				</menu>
-			</div>
-		</nav>
-		<header id="head">
-			<div class="header__container">
-				<div class="hero">
-					<div class="hero__image">
-						<img
-							src="./styles/images/03824AC1-26F6-4EF4-B91E-2B8DCB820643_4_5005_c.jpg"
-							alt=""
-						/>
-					</div>
-					<div class="hero__statement">
-						<h3>Welcome, my name is</h3>
-						<h1>David Fox</h1>
-						<p>
-							I`m a <span class="front__end">Front-End Web Developer</span> who
-							is excited to create responsive, interactive, and engaging web
-							experiences.
-						</p>
-						<div class="btn__container">
-							<a href="./resume.html" target="_blank"
-								><button class="btn">Resumé</button></a
-							>
-							<a
-								href="https://www.linkedin.com/in/david-fox-3b8449222/"
-								class="btn__soc"
-								target="_blank"
-								><i class="fa-brands fa-linkedin"></i
-							></a>
-							<a
-								href="https://github.com/Dave2188"
-								class="btn__soc"
-								target="_blank"
-								><i class="fa-brands fa-github-square"></i
-							></a>
-							<a
-								href="https://twitter.com/dave2188"
-								class="btn__soc"
-								target="_blank"
-								><i class="fa-brands fa-twitter-square"></i
-							></a>
-						</div>
+				<div class="hero__statement">
+					<h3>Welcome, my name is</h3>
+					<h1>David Fox</h1>
+					<p>
+						I`m a <span class="front__end">Front-End Web Developer</span> who
+						is excited to create responsive, interactive, and engaging web
+						experiences.
+					</p>
+					<div class="btn__container">
+						<a href="./resume.html" target="_blank"><button class="btn">Resumé</button></a>
+						<a href="https://www.linkedin.com/in/david-fox-3b8449222/" class="btn__soc" target="_blank"><i
+								class="fa-brands fa-linkedin"></i></a>
+						<a href="https://github.com/Dave2188" class="btn__soc" target="_blank"><i
+								class="fa-brands fa-github-square"></i></a>
+						<a href="https://twitter.com/dave2188" class="btn__soc" target="_blank"><i
+								class="fa-brands fa-twitter-square"></i></a>
 					</div>
 				</div>
 			</div>
-		</header>
-		<main>
-			<div class="main__container">
-				<section id="about" class="about">
-					<h2 class="line__title"><span>About Me</span></h2>
-					<div class="about container">
-						I`ve known that working with computers was my calling from the
-						moment I turned on my first computer and typed www in the address
-						bar. Even though its taken time to bring this dream to light, an
-						exciting journey it has been. Every day brings new challenges to
-						overcome. That being said, there is nothing like finding a solution
-						to a problem while refining my skills in the process. This journey
-						has become more to me than I had planned. What started as a path to
-						change careers has morphed into a renewed passion for learning and
-						creativity.
-					</div>
-				</section>
-				<section id="skills" class="skills">
-					<h2 class="line__title"><span>Skills</span></h2>
-					<div class="skills__container">
-						<div class="skill__icon__container transform">
-							<img
-								class="skill__icon"
-								src="./styles/images/file_type_html_icon_130541.svg"
-								alt=""
-							/>
-							<span>HTML</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/file_type_css_icon_130661.svg"
-								alt=""
-							/>
-							<span>CSS</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/file_type_git_icon_130581.svg"
-								alt=""
-							/>
-							<span>GIT</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/github-logo_icon-icons.com_73546.svg"
-								alt=""
-							/>
-							<span>GITHUB</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/file_type_vscode_icon_130084.svg"
-								alt=""
-							/>
-							<span>VSCODE</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/javascript_icon_130900.svg"
-								alt=""
-							/>
-							<span>JAVASCRIPT</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/react_original_logo_icon_146374.svg"
-								alt=""
-							/>
-							<span>REACT</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/mac-apple-osx-desktop-software-hardware_icon-icons.com_59289.png"
-								alt=""
-							/>
-							<span>MAC</span>
-						</div>
-						<div class="skill__icon__container">
-							<img
-								class="skill__icon"
-								src="./styles/images/windows_icon-icons.com_60494.svg"
-								alt=""
-							/>
-							<span>WINDOWS</span>
-						</div>
-					</div>
-				</section>
-				<section id="projects" class="projects">
-					<h2 class="line__title"><span>Projects</span></h2>
-					<div class="project">
-						<div class="project__card container">
-							<div class="project__img__container">
-								<img src="./styles/images/moshify.png" alt="" />
-							</div>
-							<div class="project__info">
-								<h3>Moshify Website</h3>
-								<p>
-									A responsive website built with HTML, CSS, and, JAVASCRIPT.
-								</p>
-								<a href="https://dave2188.github.io/moshify/" target="_blank"
-									>Live Website</a
-								>
-								<a href="https://github.com/Dave2188/moshify" target="_blank"
-									>Repository</a
-								>
-							</div>
-						</div>
-						<div class="project__card container">
-							<div class="project__img__container">
-								<img
-									class="battleship"
-									src="./styles/images/battleship.png"
-									alt=""
-								/>
-							</div>
-							<div class="project__info">
-								<h3>Battleship Game</h3>
-								<p>A version of Battleship built with JAVASCRIPT.</p>
-								<a
-									href="https://dave2188.github.io/mybattleship/"
-									target="_blank"
-									>Live Website</a
-								>
-								<a
-									href="https://github.com/Dave2188/mybattleship"
-									target="_blank"
-									>Repository</a
-								>
-							</div>
-						</div>
-						<div class="project__card container">
-							<div class="project__img__container">
-								<img src="./styles/images/clubsite.png" alt="" />
-							</div>
-							<div class="project__info">
-								<h3>Club Website</h3>
-								<p>
-									A mock responsive local Marvel website built with HTML and
-									CSS.
-								</p>
-								<a
-									href="https://dave2188.github.io/club-website/"
-									target="_blank"
-									>Live Website</a
-								>
-								<a
-									href="https://github.com/Dave2188/club-website"
-									target="_blank"
-									>Repository</a
-								>
-							</div>
-						</div>
-						<div class="project__card container">
-							<div class="project__img__container">
-								<img src="./styles/images/flexboxsite.png" alt="" />
-							</div>
-							<div class="project__info">
-								<h3>Flexbox Website</h3>
-								<p>
-									A responsive website built with HTML, CSS, and, JAVASCRIPT.
-								</p>
-								<a
-									href="https://dave2188.github.io/flexbox-mock-business-site/"
-									target="_blank"
-									>Live Website</a
-								>
-								<a
-									href="https://github.com/Dave2188/flexbox-mock-business-site"
-									target="_blank"
-									>Repository</a
-								>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section id="contact" class="contact">
-					<h2 class="line__title"><span>Contact Me</span></h2>
-					<div class="contact__form container">
-						<form
-							class="form"
-							id="form1"
-							action="https://formsubmit.co/ae09460b42a781fe91fa75a067ed1b3b"
-							method="POST"
-						>
-							<!-- honeypot -->
-							<input type="text" name="_honey" id="" style="display: none" />
-							<!-- disable captcha -->
-							<input type="hidden" name="_captcha" value="false" />
-							<input
-								type="text"
-								name="name"
-								id="name"
-								placeholder="Your Name"
-								minlength="1"
-								maxlength="20"
-								required
-							/>
-							<input
-								type="email"
-								name="email"
-								id="email"
-								placeholder="Your Email"
-								minlength="1"
-								maxlength="30"
-								required
-							/>
-							<input
-								type="text"
-								name="subject"
-								id="subject"
-								placeholder="Subject"
-								minlength="1"
-								maxlength="30"
-								required
-							/>
-							<textarea
-								name="message"
-								id="message"
-								cols="30"
-								rows="10"
-								maxlength="300"
-								placeholder="Message"
-								required
-							></textarea>
-							<input
-								class="submit__btn"
-								type="submit"
-								value="submit"
-								form="form1"
-							/>
-						</form>
-					</div>
-				</section>
-				<div class="back__link">
-					<a class="back" href="#nav">Back to top</a>
+		</div>
+	</header>
+	<main>
+		<div class="main__container">
+			<section id="about" class="about">
+				<h2 class="line__title"><span>About Me</span></h2>
+				<div class="about container">
+					I`ve known that working with computers was my calling from the
+					moment I turned on my first computer and typed www in the address
+					bar. Even though its taken time to bring this dream to light, an
+					exciting journey it has been. Every day brings new challenges to
+					overcome. That being said, there is nothing like finding a solution
+					to a problem while refining my skills in the process. This journey
+					has become more to me than I had planned. What started as a path to
+					change careers has morphed into a renewed passion for learning and
+					creativity.
 				</div>
+			</section>
+			<section id="skills" class="skills">
+				<h2 class="line__title"><span>Skills</span></h2>
+				<div class="skills__container">
+					<div class="skill__icon__container transform">
+						<img class="skill__icon" src="./styles/images/file_type_html_icon_130541.svg" alt="" />
+						<span>HTML</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/file_type_css_icon_130661.svg" alt="" />
+						<span>CSS</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/file_type_git_icon_130581.svg" alt="" />
+						<span>GIT</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/github-logo_icon-icons.com_73546.svg" alt="" />
+						<span>GITHUB</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/file_type_vscode_icon_130084.svg" alt="" />
+						<span>VSCODE</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/javascript_icon_130900.svg" alt="" />
+						<span>JAVASCRIPT</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/react_original_logo_icon_146374.svg" alt="" />
+						<span>REACT</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon"
+							src="./styles/images/mac-apple-osx-desktop-software-hardware_icon-icons.com_59289.png"
+							alt="" />
+						<span>MAC</span>
+					</div>
+					<div class="skill__icon__container">
+						<img class="skill__icon" src="./styles/images/windows_icon-icons.com_60494.svg" alt="" />
+						<span>WINDOWS</span>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="projects">
+				<h2 class="line__title"><span>Projects</span></h2>
+				<div class="project">
+					<div class="project__card container">
+						<div class="project__img__container">
+							<img src="./styles/images/play-list-ify.surge.sh_.png" alt="" />
+						</div>
+						<div class="project__info">
+							<h3>Play-list-ify App</h3>
+							<p>
+								An SPA built with React and JAVASCRIPT.
+							</p>
+							<a href="https://play-list-ify.netlify.app" target="_blank">Live Website</a>
+							<a href="https://github.com/Dave2188/jamming" target="_blank">Repository</a>
+						</div>
+					</div>
+					<div class="project__card container">
+						<div class="project__img__container">
+							<img src="./styles/images/moshify.png" alt="" />
+						</div>
+						<div class="project__info">
+							<h3>Moshify Website</h3>
+							<p>
+								A responsive website built with HTML, CSS, and, JAVASCRIPT.
+							</p>
+							<a href="https://dave2188.github.io/moshify/" target="_blank">Live Website</a>
+							<a href="https://github.com/Dave2188/moshify" target="_blank">Repository</a>
+						</div>
+					</div>
+					<div class="project__card container">
+						<div class="project__img__container">
+							<img class="battleship" src="./styles/images/battleship.png" alt="" />
+						</div>
+						<div class="project__info">
+							<h3>Battleship Game</h3>
+							<p>A version of Battleship built with JAVASCRIPT.</p>
+							<a href="https://dave2188.github.io/mybattleship/" target="_blank">Live Website</a>
+							<a href="https://github.com/Dave2188/mybattleship" target="_blank">Repository</a>
+						</div>
+					</div>
+					<div class="project__card container">
+						<div class="project__img__container">
+							<img src="./styles/images/clubsite.png" alt="" />
+						</div>
+						<div class="project__info">
+							<h3>Club Website</h3>
+							<p>
+								A mock responsive local Marvel website built with HTML and
+								CSS.
+							</p>
+							<a href="https://dave2188.github.io/club-website/" target="_blank">Live Website</a>
+							<a href="https://github.com/Dave2188/club-website" target="_blank">Repository</a>
+						</div>
+					</div>
+					<div class="project__card container">
+						<div class="project__img__container">
+							<img src="./styles/images/Screen Shot 2022-06-14 at 8.11.20 PM.png" alt="" />
+						</div>
+						<div class="project__info">
+							<h3>Flexbox Website</h3>
+							<p>
+								A responsive website built with HTML, CSS, and, JAVASCRIPT.
+							</p>
+							<a href="https://dave2188.github.io/flexbox-mock-business-site/" target="_blank">Live
+								Website</a>
+							<a href="https://github.com/Dave2188/flexbox-mock-business-site"
+								target="_blank">Repository</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="contact">
+				<h2 class="line__title"><span>Contact Me</span></h2>
+				<div class="contact__form container">
+					<form class="form" id="form1" action="https://formsubmit.co/ae09460b42a781fe91fa75a067ed1b3b"
+						method="POST">
+						<!-- honeypot -->
+						<input type="text" name="_honey" id="" style="display: none" />
+						<!-- disable captcha -->
+						<input type="hidden" name="_captcha" value="false" />
+						<input type="text" name="name" id="name" placeholder="Your Name" minlength="1" maxlength="20"
+							required />
+						<input type="email" name="email" id="email" placeholder="Your Email" minlength="1"
+							maxlength="30" required />
+						<input type="text" name="subject" id="subject" placeholder="Subject" minlength="1"
+							maxlength="30" required />
+						<textarea name="message" id="message" cols="30" rows="10" maxlength="300" placeholder="Message"
+							required></textarea>
+						<input class="submit__btn" type="submit" value="submit" form="form1" />
+					</form>
+				</div>
+			</section>
+			<div class="back__link">
+				<a class="back" href="#nav">Back to top</a>
 			</div>
-		</main>
-		<footer>
-			<span>&copy; David Fox 2022</span>
-		</footer>
-		<script src="script.js"></script>
-	</body>
+		</div>
+	</main>
+	<footer>
+		<span>&copy; David Fox 2022</span>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
 </html>

@@ -270,7 +270,7 @@ a {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-    text-align: center;
+	text-align: center;
 }
 
 .about .container {
@@ -323,7 +323,7 @@ a {
 .skill__icon__container:hover {
 	transform: scale(1.5) rotate(360deg);
 	transition: all 0.6s ease-in-out;
-    box-shadow: inset 0 0 20px var(--color-dark) ;
+	box-shadow: inset 0 0 20px var(--color-dark);
 }
 
 .skill__icon__container span {
@@ -378,27 +378,28 @@ a {
 	border-radius: 10px;
 	overflow: hidden;
 	margin: 0 5rem;
-	flex-shrink: 0;
-	height: auto;
+	flex-shrink: 0.5;
+	height: 300px;
+	width: 375px;
+	display: flex;
 }
 
 .project__card img {
 	height: auto;
 	width: 90%;
-    border-radius: 20px;
+	border-radius: 20px;
 }
 
 .project__info {
 	margin: 2rem 0;
 	width: 300px;
+	align-self: center;
 }
 
 .project__info a {
 	margin: 3rem 2rem;
 	font-size: 1.5rem;
 }
-
-
 
 /* contact section */
 
@@ -470,19 +471,18 @@ footer {
 }
 
 .main__container {
-	max-width: 120rem
+	max-width: 120rem;
 	margin: auto;
 }
 
 /* resume page */
 
 .resume__container {
-    display: flex;
+	display: flex;
 }
 .coming {
-  height: 100%;
-  width: auto;
-  margin: auto;
-  padding: 5rem;
-
+	height: 100%;
+	width: auto;
+	margin: auto;
+	padding: 5rem;
 }
