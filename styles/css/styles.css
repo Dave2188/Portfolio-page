@@ -56,8 +56,7 @@ a {
 }
 
 .svg-inline--fa {
-	vertical-align: -0.2em !important;
-	padding: 0 1rem 0 1rem;
+	vertical-align: -0.18em !important;
 }
 
 /* nav */
@@ -198,7 +197,8 @@ a {
 }
 
 .front__end {
-	color: rgb(0, 26, 255);
+	color: #224252;
+	font-size: 2rem;
 }
 
 .btn {
@@ -210,7 +210,6 @@ a {
 	font-size: 1.5rem;
 	font-weight: normal;
 	letter-spacing: 1.2px;
-	margin-right: 3rem;
 	padding: 10px 30px;
 }
 
@@ -221,10 +220,11 @@ a {
 .btn__container {
 	align-items: center;
 	display: flex;
+	justify-content: space-evenly;
 	margin: auto;
 	position: relative;
 	top: 20px;
-	width: fit-content;
+	width: 100%;
 }
 
 .btn__soc {
@@ -232,9 +232,8 @@ a {
 	background-color: var(--color-blue);
 	border-radius: 5px;
 	color: var(--color-teal);
-	font-size: 2.4rem;
-	margin: 1rem;
-	padding: 0.5rem 0 0.5rem 0;
+	font-size: 3rem;
+	padding: 0.1px 3.5px;
 }
 
 .btn__soc svg {
