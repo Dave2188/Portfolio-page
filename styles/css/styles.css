@@ -390,6 +390,7 @@ a {
 	border-radius: 10px;
 	overflow: hidden;
 	margin: 0 5rem;
+	justify-content: center;
 	flex-shrink: 0.5;
 	height: 300px;
 	width: 375px;
